@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.Box{
+  width: 700px;
+  height: 500px;
+  border: solid 1px black;
+
+  margin: 50px;
+}
+.Buttonbox{
+  width: 700px;
+  height: 500px;
+  border: solid 1px black;
+  align-items: center;
+  padding-top:200px ;
+  
+  margin: 50px;
+}

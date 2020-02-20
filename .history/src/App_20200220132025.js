@@ -11,7 +11,7 @@ function App() {
   const [dark, setDark] = useState(getmode)
   useEffect(() => {
     localStorage.setItem("Mode",JSON.stringify(dark))
-  }, [dark]);
+  }, []);
 
   
   

@@ -11,7 +11,7 @@ function App() {
   const [dark, setDark] = useState(getmode)
   useEffect(() => {
     localStorage.setItem("Mode",JSON.stringify(dark))
-  }, [dark]);
+  }, []);
 
   
   
@@ -22,7 +22,7 @@ function App() {
               <div className="switch">
           <label>
             Light
-            <input type="checkbox" onChange={(e)=>setDark(!dark) } checked={dark}/>
+            <input type="checkbox" onChange={(e)=>setDark(!dark) }/>
             <span className="lever"></span>
             Dark
           </label>

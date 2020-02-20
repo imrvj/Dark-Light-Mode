@@ -4,7 +4,7 @@
  justify-content: center;
  height: 50px;
  padding-top: 10px;
-background-color: gray;
+
  color: white;
  
 }
@@ -18,8 +18,4 @@ background-color: gray;
 .dark-mode{
   background-color: rgb(58, 54, 54);
   color: whitesmoke;
-}
-
-.dark-mode .nav{
-  background-color: green;
 }

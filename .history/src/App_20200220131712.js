@@ -3,17 +3,15 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const getmode=()=>
-  {
-    return JSON.parse(localStorage.getItem("Mode")) || false
-  }
-  
-  const [dark, setDark] = useState(getmode)
+  const [dark, setDark] = useState(false)
   useEffect(() => {
     localStorage.setItem("Mode",JSON.stringify(dark))
-  }, [dark]);
+  }, []);
 
-  
+  const getmode=()=>
+  {
+    localStorage.getItem(mode)
+  }
   
   return (
    
@@ -22,7 +20,7 @@ function App() {
               <div className="switch">
           <label>
             Light
-            <input type="checkbox" onChange={(e)=>setDark(!dark) } checked={dark}/>
+            <input type="checkbox" onChange={(e)=>setDark(!dark) }/>
             <span className="lever"></span>
             Dark
           </label>

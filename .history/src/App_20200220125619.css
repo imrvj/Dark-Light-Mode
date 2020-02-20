@@ -1,0 +1,15 @@
+.nav
+{
+  display: flex;
+ justify-content: center;
+ height: 50px;
+ padding-top: 10px;
+
+ color: white;
+ 
+}
+
+.content
+{
+  text-align: center;
+}

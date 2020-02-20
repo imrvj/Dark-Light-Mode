@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.Box{
+  width: 50vw;
+  height: 50vh;
+  border: solid 1px black;
+  padding: 40px;
+}
